@@ -1,9 +1,21 @@
+@font-face {
+    font-family: Vertigo;
+    src: url(VertigoPlusFLF.ttf);
+}
+
+
+@font-face {
+    font-family: Airstrike;
+    src: url(airstrikecond.ttf);
+}
 
 .container{
     max-width: 100%;
     margin: 0 auto;
     background: #f9f9f9;
+    display: block;
     font-size: 24px;
+    font-family: Airstrike, cursive;
     padding: 25px;
 }
 
@@ -12,18 +24,14 @@
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
-    opacity:0.6;
 }
 
-@font-face {
-    font-family: Vertigo;
-    src: url(VertigoPlusFLF.ttf);
-}
 
 .header {
     padding: 60px;
-    font-family: Vertigo, fantasy;
+    font-family: Airstrike, fantasy;
     text-align: center;
+    display: block;
     background: #FF7F50;
     opacity:0.6;
     color: antiquewhite;
@@ -31,6 +39,8 @@
 }
 
 table {
+    font-family: Vertigo, cursive;
+    font-size: 18px;
     border-collapse: collapse;
     width: 100%;
 }
@@ -44,4 +54,9 @@ tr:nth-child(even) {background-color: #FF7F50;
 opacity: 60;
 }
 
-
+.Parallax2{
+    background: url("https://raw.githubusercontent.com/Beardificent/mrkdwn-warmup-css/master/photo.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
