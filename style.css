@@ -18,14 +18,14 @@
     src: url(VertigoPlusFLF.ttf);
 }
 .luchtbal{
-    max-width: 100%;
     margin: 0 auto;
-    background: #FF7F50;
+    background: rgb(143, 21, 208, 0.6);
     display: block;
+    text-align: center;
     font-size: 24px;
-    opacity: 0.6;
     font-family: Airstrike, cursive;
-    padding: 25px;
+    color: goldenrod;
+    padding: 5px;
 }
 
 .Parallax{
@@ -37,13 +37,12 @@
 
 
 .header {
-    padding: 60px;
+    padding: 40px;
     font-family: Airstrike, fantasy;
+    color: goldenrod;
     text-align: center;
     display: block;
-    background: #FF7F50;
-    opacity:0.6;
-    color: antiquewhite;
+    background: rgb(143, 21, 208, 0.6);
     font-size: 30px;
 }
 
@@ -52,6 +51,7 @@ table {
     font-size: 36px;
     border-collapse: collapse;
     width: 100%;
+    color: black;
 }
 
 th, td {
@@ -59,8 +59,8 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even) {background-color: #ff7f50;
-opacity: 0.6;
+tr:nth-child(even) {background: rgb(143, 21, 208, 0.6);
+
 }
 
 .Parallax2{
@@ -82,7 +82,34 @@ opacity: 0.6;
      text-align: center;
      margin-left: auto;
      margin-right: auto;
-     margin-top: 100px;
-     width: 30%;
-     height: 25%;
+     font-family: Adventure, monospace;
  }
+
+ .TLDR{
+     font-family: Airstrike, cursive;
+     olor: goldenrod;
+     text-align: center;
+     display: block;
+     background: rgb(143, 21, 208, 0.6);
+     font-size: 30px;
+ }
+
+ .TLDRcontent{
+     font-family: Adventure, sans-serif;
+     color: black;
+     display: inline-block;
+     text-align: center;
+
+ }
+
+
+.left {
+    float: left;
+    font-family: Airstrike, fantasy;
+    font-size: 25px;
+}
+.right {
+    float: right;
+    font-family: Airstrike, fantasy;
+    font-size: 25;
+}
