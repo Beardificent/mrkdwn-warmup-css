@@ -8,13 +8,22 @@
     font-family: Airstrike;
     src: url(airstrikecond.ttf);
 }
+@font-face {
+    font-family: Adventure;
+    src: url(Adventure.ttf);
+}
 
-.container{
+@font-face {
+    font-family: VertigoBold;
+    src: url(VertigoPlusFLF.ttf);
+}
+.luchtbal{
     max-width: 100%;
     margin: 0 auto;
-    background: #f9f9f9;
+    background: #FF7F50;
     display: block;
     font-size: 24px;
+    opacity: 0.6;
     font-family: Airstrike, cursive;
     padding: 25px;
 }
@@ -39,8 +48,8 @@
 }
 
 table {
-    font-family: Vertigo, cursive;
-    font-size: 18px;
+    font-family: VertigoBold, cursive;
+    font-size: 36px;
     border-collapse: collapse;
     width: 100%;
 }
@@ -50,8 +59,8 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even) {background-color: #FF7F50;
-opacity: 60;
+tr:nth-child(even) {background-color: #ff7f50;
+opacity: 0.6;
 }
 
 .Parallax2{
@@ -60,3 +69,20 @@ opacity: 60;
     background-attachment: fixed;
     height: 500px;
 }
+.count{
+    font-family: VertigoBold, cursive;
+    font-size: 30px;
+}
+
+.counthead{
+    font-family: Adventure, serif;
+}
+ .funny{
+     display: inline-block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+     width: 30%;
+     height: 25%;
+ }
