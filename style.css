@@ -1,0 +1,47 @@
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.Parallax{
+    background: url("https://raw.githubusercontent.com/Beardificent/markdown-challenge/master/cis.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    opacity:0.6;
+}
+
+@font-face {
+    font-family: Vertigo;
+    src: url(VertigoPlusFLF.ttf);
+}
+
+.header {
+    padding: 60px;
+    font-family: Vertigo, fantasy;
+    text-align: center;
+    background: #FF7F50;
+    opacity:0.6;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #FF7F50;
+opacity: 60;
+}
+
+
